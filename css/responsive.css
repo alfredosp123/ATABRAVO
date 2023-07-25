@@ -200,6 +200,7 @@
         padding: 30px 0px 15px 0px;
     }
     .logo {
+        width: 50vh;
         border: inherit;
         float: left;
         margin-top: 0px !important;
@@ -284,7 +285,7 @@
         margin-bottom: 30px;
     }
     .right_bottun {
-        margin-top: -40px;
+        margin-top: -50px;
     }
     ul.location_icon li {
         font-size: 18px;
@@ -296,5 +297,5 @@
     .d_none {
         display: none;
     }
+    
 }
-
