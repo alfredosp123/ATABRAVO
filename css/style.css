@@ -558,9 +558,9 @@ ul.conat_info li a:hover {
 
 
 .service_box i {
-     width: 181px;
+     width: auto;
      display: block;
-     height: 181px;
+     height: auto;
      border-radius: 200px;
 }
 
@@ -610,103 +610,35 @@ ul.conat_info li a:hover {
 
 /** vehicles section **/
 
-.vehicles {
-     background-color: #fff;
-     padding: 70px 0 155px 0;
+.rutas {
+     text-align: center;
+     margin-top: 80px;
+     background-color: #ffffff ;
+     margin-bottom: 20px;
 }
 
-.vehicles .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
-}
-
-.vehicles .titlepage p {
-     color: #0d0202;
-     padding-top: 15px;
-     text-align: center;
-     margin: 0 50px;
+.rutas .titlepage p {
+     color: #0c0202;
      font-size: 17px;
-     font-weight: 400;
+     line-height: 30px;
+     padding-top: 20px;
+     margin-bottom: 25px ;
+
 }
 
-.vehicles_truck {
-     background-color: #efedf0;
-     transition: ease-in all 0.5s;
-     width: 100%;
-     border-radius: 25px;
-     padding: 35px 0;
-}
-
-.vehicles_truck:hover {
-     background-color: #fff;
-     transition: ease-in all 0.5s;
-     box-shadow: 0 0 16px rgba(22, 22, 23, 15%)
-}
-
-.vehicles_truck figure {
-     margin: 0;
-}
-
-.blac_co {
-     color: #000;
-     font-size: 25px;
-     line-height: 20px;
-     font-weight: bold;
-     text-transform: uppercase;
-     margin-top: 34px;
-}
-
-.vehicles .read_more {
-     margin-top: 0px;
-     margin: 0 auto;
-}
-
-#veh .carousel-caption {
-     position: inherit;
-     padding: 0;
-}
-
-#veh .carousel-indicators {
-     display: none;
-}
-
-#veh .carousel-control-prev,
-#veh .carousel-control-next {
-     width: 50px;
-     height: 50px;
-     background: #efedf0;
-     opacity: 1;
-     font-size: 30px;
-     color: #000;
-     border-radius: 5px;
-     top: 111%;
-     z-index: 9999;
-}
-
-#veh .carousel-control-prev:hover,
-#veh .carousel-control-next:hover,
-#veh .carousel-control-prev:focus,
-#veh .carousel-control-next:focus {
-     background: #0f98f8;
-     color: #fff;
-}
-
-#veh a.carousel-control-prev {
-     position: absolute;
-     left: 46%;
-}
-
-#veh a.carousel-control-next {
-     position: absolute;
-     right: 46%;
-     bottom: 10px;
-}
-
-.vehicles .read_more {
-     margin: 0 auto;
-     padding-top: 150px;
-}
-
+.layout {
+     width: 1920px;
+     height: 1080px;
+   
+     display: grid;
+     grid-template-rows: repeat(2, auto);
+     grid-template-columns: repeat(3, 240px);
+     gap: 8px;
+     grid-auto-flow: row dense;
+   
+     justify-content: center;
+     align-content: center;
+   }
 
 /** end vehicles section **/
 
@@ -826,7 +758,7 @@ ul.conat_info li a:hover {
 /** choose section **/
 
 .choose {
-     background-color: #fff;
+     background-color: #f7f7f9;
      padding-top: 90px;
 }
 
