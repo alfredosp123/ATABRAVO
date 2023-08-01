@@ -249,6 +249,8 @@
     }
     .service_box i {
         margin: 0 auto;
+        width: 80%;
+        height: 85%;
     }
     .vehicles_truck {
         margin-bottom: 30px;
